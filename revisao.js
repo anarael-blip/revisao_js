@@ -10,15 +10,16 @@
 // console.log(preco);
 // console.log(typeof preco);
 
-let texto = "mundo JS";
-let numero = 42;
-let ligado = true;
-let vazio = null;
-let indeferido;
-let numerogrande = 100n;
-console.log(typeof texto);
-console.log(typeof numero);
-console.log(typeof ligado);
-console.log(typeof vazio);
-console.log(typeof indeferido);
-console.log(typeof numerogrande);
+let soma = 2+2
+let subtracao = 2-2
+let multiplicacao = 2*2
+let divisao = 2/2
+let resto = 2 % 2
+
+console.log(`
+    ${soma}
+    ${subtracao}
+    ${multiplicacao}
+    ${divisao}
+    ${resto}`
+);
