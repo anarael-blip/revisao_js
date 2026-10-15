@@ -10,16 +10,27 @@
 // console.log(preco);
 // console.log(typeof preco);
 
-let soma = 2+2
-let subtracao = 2-2
-let multiplicacao = 2*2
-let divisao = 2/2
-let resto = 2 % 2
+// let soma = 2+2
+// let subtracao = 2-2
+// let multiplicacao = 2*2
+// let divisao = 2/2
+// let resto = 2 % 2
 
-console.log(`
-    ${soma}
-    ${subtracao}
-    ${multiplicacao}
-    ${divisao}
-    ${resto}`
-);
+// console.log(`
+//     ${soma}
+//     ${subtracao}
+//     ${multiplicacao}
+//     ${divisao}
+//     ${resto}`
+// );
+
+// const temcarteira = true
+// const maiordeidade = false 
+// const podeconduzir = temcarteira && maiordeidade;
+// console.log(podeconduzir);
+const temcarteira = true
+const maiordeidade = false
+const satisfazum = temcarteira || maiordeidade
+console.log(satisfazum);
+
+
