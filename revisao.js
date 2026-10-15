@@ -33,10 +33,16 @@
 // const satisfazum = temcarteira || maiordeidade
 // console.log(satisfazum);
 
-let ativo = true
-let inativo = !ativo
-console.log("ativo:", ativo)
-console.log("inativo:", inativo);
+// let ativo = true
+// let inativo = !ativo
+// console.log("ativo:", ativo)
+// console.log("inativo:", inativo);
+
+let number = 24
+console.log(typeof number);
+let number2 = String (24)
+console.log(typeof number2);
+
 
 
 
