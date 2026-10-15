@@ -28,9 +28,18 @@
 // const maiordeidade = false 
 // const podeconduzir = temcarteira && maiordeidade;
 // console.log(podeconduzir);
-const temcarteira = true
-const maiordeidade = false
-const satisfazum = temcarteira || maiordeidade
-console.log(satisfazum);
+// const temcarteira = true
+// const maiordeidade = false
+// const satisfazum = temcarteira || maiordeidade
+// console.log(satisfazum);
+
+let ativo = true
+let inativo = !ativo
+console.log("ativo:", ativo)
+console.log("inativo:", inativo);
+
+
+
+
 
 
