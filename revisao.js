@@ -52,8 +52,43 @@
 // const total = numeroConvertido + 10
 // console.log(total);
 
-console.log(Boolean (0));
-console.log(Boolean(""));
-console.log(Boolean(100));
-console.log(Boolean("gato"));
+// console.log(Boolean (0));
+// console.log(Boolean(""));
+// console.log(Boolean(100));
+// console.log(Boolean("gato"));
+
+// let saldo = 100
+// saldo += 54
+// saldo -= 20
+// saldo *= 2
+// saldo /= 4
+// console.log("saldo final:", saldo);
+
+// const idade = 20
+// const mensagem = idade > 18 ? 'pode' : 'não'
+// console.log(mensagem);
+
+// const idade = 70
+// const mensagem = idade > 60 ? 'aposenta' : 'não aposenta'
+// console.log(mensagem);
+
+// const color = 'vermelho';
+
+// switch (color) {
+// case 'vermelho': console.log('Pare')
+// break;
+
+// case 'amarelo': console.log('Atenção');
+
+// case 'verde': console.log('Siga');
+// break;
+// }
+
+let j = 0;
+
+while (j < 3) {
+console.log("Valor de j:", j);
+j--;
+}
+
 
