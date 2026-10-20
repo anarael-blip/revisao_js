@@ -68,6 +68,11 @@
 // const mensagem = idade > 18 ? 'pode' : 'não'
 // console.log(mensagem);
 
+// const frutas = ['uva', 'pera', 'maçã'];
+
+// for (const fruta of frutas) {
+// console.log("Fruta da vez:", fruta);
+
 // const idade = 70
 // const mensagem = idade > 60 ? 'aposenta' : 'não aposenta'
 // console.log(mensagem);
@@ -84,11 +89,21 @@
 // break;
 // }
 
-let j = 0;
+// let j = 0;
 
-while (j < 3) {
-console.log("Valor de j:", j);
-j--;
-}
+// while (j < 3) {
+// console.log("Valor de j:", j);
+// j++;
+// }
+
+
+// const nums = [1,2,3,4];
+// const triplo = nums.map(n => n * 3);
+// console.log(triplo); 
+
+
+// const idades =[12,17,18,22,15,30];
+// const maiores = idades.filter(i => i >= 18);
+// console.log(maiores); 
 
 
