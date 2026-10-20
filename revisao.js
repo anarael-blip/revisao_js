@@ -106,4 +106,38 @@
 // const maiores = idades.filter(i => i >= 18);
 // console.log(maiores); 
 
+const comidas = [
+  'banana', 'maça', 'uva', 'limão',
+  'abobora', 'beterraba', 'rabanete'
+];
 
+const frutas = comidas.filter(comida =>
+  ['banana', 'maça', 'uva', 'limão'].includes(comida)
+);
+
+const legumes = comidas.filter(comida =>
+  ['abobora', 'beterraba', 'rabanete'].includes(comida)
+);
+
+console.log(frutas);
+
+
+console.log(legumes);
+
+
+const salarios = [1200, 50, 100, 1350, 300, 1450];
+
+const salarioAlto = salarios.filter(salario => salario >= 1000);
+
+const salarioBaixo = salarios.filter(salario => salario < 1000);
+
+console.log(salarioAlto);
+
+console.log(salarioBaixo);
+
+
+const numeros = [5, 10, 15, 20, 25];
+
+const resultado = numeros.filter(numero => numero > 15);
+
+console.log(resultado);
