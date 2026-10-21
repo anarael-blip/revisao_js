@@ -106,38 +106,120 @@
 // const maiores = idades.filter(i => i >= 18);
 // console.log(maiores); 
 
-const comidas = [
-  'banana', 'maça', 'uva', 'limão',
-  'abobora', 'beterraba', 'rabanete'
-];
+// const comidas = [
+//   'banana', 'maça', 'uva', 'limão',
+//   'abobora', 'beterraba', 'rabanete'
+// ];
 
-const frutas = comidas.filter(comida =>
-  ['banana', 'maça', 'uva', 'limão'].includes(comida)
-);
+// const frutas = comidas.filter(comida =>
+//   ['banana', 'maça', 'uva', 'limão'].includes(comida)
+// );
 
-const legumes = comidas.filter(comida =>
-  ['abobora', 'beterraba', 'rabanete'].includes(comida)
-);
+// const legumes = comidas.filter(comida =>
+//   ['abobora', 'beterraba', 'rabanete'].includes(comida)
+// );
 
-console.log(frutas);
-
-
-console.log(legumes);
+// console.log(frutas);
 
 
-const salarios = [1200, 50, 100, 1350, 300, 1450];
-
-const salarioAlto = salarios.filter(salario => salario >= 1000);
-
-const salarioBaixo = salarios.filter(salario => salario < 1000);
-
-console.log(salarioAlto);
-
-console.log(salarioBaixo);
+// console.log(legumes);
 
 
-const numeros = [5, 10, 15, 20, 25];
+// const salarios = [1200, 50, 100, 1350, 300, 1450];
 
-const resultado = numeros.filter(numero => numero > 15);
+// const salarioAlto = salarios.filter(salario => salario >= 1000);
 
-console.log(resultado);
+// const salarioBaixo = salarios.filter(salario => salario < 1000);
+
+// console.log(salarioAlto);
+
+// console.log(salarioBaixo);
+
+
+// const numeros = [5, 10, 15, 20, 25];
+
+// const resultado = numeros.filter(numero => numero > 15);
+
+// console.log(resultado);
+
+// let arrayMap = [1,2,3,4]
+// arrayMap.map((array) => console.log(array));
+// let idade = [12, 17, 22, 67, 30]
+// let filter = idade.filter ((idade) => idade > 20)
+// let map = idade.map ((idade) => idade * 20)
+// console.log(filter)
+// console.log(map);
+// const objeto = {
+//     Nome: 'ana',
+//     idade: 15,
+// }
+// const { idade} = objeto;
+// console.log(idade)
+
+
+
+
+const mesadas = [5, 10, 15];
+const mesadasDobradas = mesadas.map(mesada => mesada * 2);
+console.log("exercício 1:", mesadasDobradas);
+
+
+const pontos = [3, 7, 10];
+const pontosTurbinados = pontos.map(ponto => ponto + 5);
+console.log("exercício 2:", pontosTurbinados);
+
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+const pares = numeros.filter(numero => numero % 2 === 0);
+console.log("exercício 3:", pares);
+
+
+const precos = [15, 30, 8, 22, 12];
+const precosBaratos = precos.filter(preco => preco <= 20);
+console.log("exercício 4:", precosBaratos);
+
+
+const moedas = [1, 0.5, 0.25, 1, 0.25];
+const totalMoedas = moedas.reduce((total, moeda) => total + moeda, 0);
+console.log("exercício 5:", totalMoedas);
+
+
+const fases = [120, 80, 200, 50];
+const totalPontos = fases.reduce((total, pontos) => total + pontos, 0);
+console.log("exercício 6:", totalPontos);
+
+
+const colegas = ["qna", "pedro", "maria", "lucas", "joão"];
+colegas.forEach(nome => console.log(`presente, ${nome}!`));
+
+
+const figurinhas = ["leão", "tigre", "urso"];
+figurinhas.forEach(animal => console.log(`tenho a figurinha do ${animal}`));
+
+
+const numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const imparesAoQuadrado = numeros2
+    .filter(numero => numero % 2 !== 0)
+    .map(numero => numero * numero);
+console.log("exercício 9:", imparesAoQuadrado);
+
+
+const lista = [1, 2, 3, 4, 5, 6];
+const resultadoCombo = lista
+    .filter(numero => numero % 2 === 0)
+    .map(numero => numero * 2)
+    .reduce((total, numero) => total + numero, 0);
+console.log("exercício 10:", resultadoCombo);
+
+
+const mochila1 = ["lápis", "caderno"];
+const mochila2 = ["borracha", "régua"];
+const mochilaCompleta = [...mochila1, ...mochila2];
+console.log("exercício 11:", mochilaCompleta);
+console.log("quantidade de itens:", mochilaCompleta.length);
+
+
+const heroi = { nome: "raio azul", poder: "velocidade", nivel: 7 };
+const { nome, poder } = heroi;
+console.log(`exercício 12: ${nome} tem o poder de ${poder}`);
+
